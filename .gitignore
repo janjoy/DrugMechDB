@@ -109,3 +109,7 @@ _site
 
 # mypy
 .mypy_cache/
+
+#ignore files -jjoy
+_data/intermediate_data/
+data_analysis/figures_DMDB_manuscript-Copy1.ipynb

@@ -4,6 +4,8 @@ from copy import deepcopy
 from tqdm.auto import tqdm
 from sklearn.base import TransformerMixin
 from scipy.sparse import csc_matrix, csr_matrix, issparse
+from scipy import interpolate
+from scipy.interpolate import interp1d
 
 def add_percentile_for_grp(in_df, group_col, new_col, sort_col='prediction'):
 

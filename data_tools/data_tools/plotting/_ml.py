@@ -1,6 +1,7 @@
 import numpy as np
-from scipy import interp
+from scipy import interpolate as interp
 import matplotlib.pyplot as plt
+import sklearn
 from sklearn.metrics import precision_recall_curve, roc_curve, auc
 
 
